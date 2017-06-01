@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" />
+<link rel="stylesheet" type="text/css" href="../static/css/myStyle.css" th:href="@{/css/myStyle.css}" />
+<!-- <script src="../static/js/jquery.min.js" th:src="@{/js/jquery.min.js}"> </script>
+<script src="../static/js/bootstrap.min.js"  th:src="@{/js/bootstrap.min.js}" ></script> -->
+
+<title>Gestion de Banque</title>
+</head>
+<body>
+<header>
+   <div class="navbar  backgroundColor ">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav ">
+                 <li ><a class="blanc" th:href="@{/clients}">Add Compte</a></li>
+                 <li><a class="blanc" th:href="@{/clients}">Clients</a></li>
+                 <li><a class="blanc" th:href="@{/operations}">Operations</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                 <li><a class="blanc" th:href="@{/login?logout}">Logout</a></li>
+            </ul>
+            
+        </div>
+   </div>
+</header>
+<section layout:fragment="content1"></section>
+<footer>
+     <div class="navbar navbar-default navbar-fixed-bottom">
+         <div class="text-center">
+           <small> copyright@2017 adresse:Avenue Jaich Hay Salam Meknes </small>
+           </div>
+     </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@CHARSET "utf-8";
+.espace{
+	padding-top: 40px
+}
+.red{
+	color: red;
+}
+.blanc{
+	color: white;
+}
+
+.padding{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.imagebackground{
+	background-image: url("bg_services.jpg");
+}
+.backgroundColor{
+	background-color: #33adff;
+	
+}
